@@ -1,2 +1,2 @@
-# MyFirstRepository
-My Fist Ever Repository
+# MyFirstEverRepository
+First repository
