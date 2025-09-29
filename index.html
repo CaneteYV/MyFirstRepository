@@ -7,18 +7,154 @@
     <link rel="stylesheet" href="mainpagee.css">
 </head>
 <body>
-      <h1 style="text-align: center;">Yvhan E. Canete <br> 11-Competence</h1>  
-    <div>
-    <a href="yvhan.html" style="text-align: center;" class="main">RESUME</a> <br>
-    <a href="Quiz.html" style="text-align: center;" class="main">QUIZ</a> <br> 
-    <a href="color.html" style="text-align: center;"class="main">COLOR</a> <br>
-    <a href="lazda.html" style="text-align: center;"class="main">SHOP</a> <br> 
-    <a href="CSS.html" style="text-align: center;"class="main">CSS</a> <br> 
-    <a href="definiton.html" style="text-align: center;"class="main">DEFINITION</a> <br> 
-    <a href="Attributes.html" style=" text-align: center;"class="main"> ATTRIBUTES</a> <br>
-    <a href="mYrEsume.html"class="main"> TABLE RESUME</a> <br>  
-    <a href="TAble.html"class="main">TABLE</a> <br>  
-    </div>
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIKU</title>
+    
+</head>
+<body>
+  <style>
+    #rei {
+    background-color: yellow;
+    color: black;
+    
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: turquoise;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: turquoise;
+  text-align: center;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none ;
+  
+}
+nav li a{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;  
+}
+
+ 
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: turquoise;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+#kaito {
+    background-color: blue;
+    color: aliceblue;
+}
+#teto {
+    background-color: red;
+    color: aliceblue;
+}
+#luka {
+    background-color: pink;
+    color: white;
+}
+#gumi {
+    background-color: green;
+    color: white;
+}
+a {
+    
+    color: white;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(117, 0, 0);
+    transform: 9px ;
+}
+#tsukasa {
+    background-color: purple;
+    color: white;
+}
+p {
+  color: turquoise;
+}
+
+  </style>
+   
+    
+<header>
+  <h2>HATSUNE MIKU</h2>
+</header>
+ 
+<section>
+    <nav>
+        <ul class="voc">
+            <li><a href="layout.html">MIKU</a></li>
+  <li><a href="home.html">LUKA</a></li>
+  <li><a href="contact.html">TETO</a></li>
+  <li><a href="about.html">REI</a></li>
+
+        </ul>
+    </nav>
+    <article>
+        <h1>WHO IS SHE?</h1>
+        <p>Hatsune Miku (Japanese: 初音ミク, [hatsɯne miꜜkɯ]), officially code-named CV01, is a Vocaloid software voicebank developed by Crypton Future Media. Its official mascot is depicted as a sixteen-year-old girl with long, turquoise twintails. Miku's personification has been marketed as a virtual idol, and has performed at live virtual concerts onstage as an animated holographic projection (rear-cast projection on a specially coated glass screen).</p>
+        
+    </article>
+</section>
+<footer>
+  <p>VOCALOID</p>
+</footer>
+
+ 
+</body>
+</html>
     
 </body>
 </html>
