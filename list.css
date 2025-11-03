@@ -1,0 +1,153 @@
+.list-border {
+    border: 5px solid #556B2F;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background: #fff8f0;
+    margin: 0 auto 24px auto;
+    display: block;
+    max-width: 900px;
+    width: 100%;
+}
+
+.lists-row {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.inner-border {
+    border: 3px solid #556B2F;
+    border-radius: 8px;
+    background: #fff;
+    padding: 16px;
+    min-width: 200px;
+    max-width: 300px;
+    flex: 1 1 0;
+}
+
+ul, ol, dl {
+    list-style: none;
+    padding-left: 0;
+    border: none;
+    margin: 0;
+    background: none;
+}
+
+li {
+    padding-left: 0;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 1.1em;
+    position: static;
+}
+
+li::before {
+    content: none;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #556B2F;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+ 
+ 
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #7b0323;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+nav {
+  float: left;
+  height: 400px;
+  width: 30%;
+  background: #A52A2A;
+  text-align: center;
+  border: black solid;
+  height: 870px;
+}
+nav ul {
+  margin: -50;
+  padding: 0;
+  list-style-type: none ; 
+}
+nav li a{
+      background-color: #8B0000;
+    margin-bottom: px;
+    display: block;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 25px;
+}
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  background-color: #A52A2A;  
+  height: 400px;
+ 
+  border: black solid;
+  height: 870px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+li a {
+    padding: 27.19px;    
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+li a:hover {
+    background-color: rgb(117, 0, 0);
+    transform: 9px ;
+}
+h1, h2, p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+footer {
+  background-color: #7b0323;
+  padding: 10px;
+  height: 200px;
+}
+.titel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #556B2F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
