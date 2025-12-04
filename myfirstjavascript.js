@@ -1,0 +1,1 @@
+document.getElementById("jsexeternal").innerHTML = "My first JavaScript code!";

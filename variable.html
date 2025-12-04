@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Variable in JavaScript</h1>
+    <button type="button" onclick="private_variable()">This will show the private variable</button>
+    <script>
+        let x = 5;
+        let y = 4;
+        y = 10;
+        x = 20;
+        console.log(x + y);
+        const z = 100;
+        console.log(z);
+        var studentName = "Yvhan ";
+        console.log(studentName);
+        function private_variable() {
+           let _x = 25;
+              console.log(_x);
+        }
+        var $ = "This is also valid";
+        let $$ = "This is also valid";
+        const $$$valid = "This is also valid";
+        console.log($);
+        console.log($$);
+        console.log($$$valid);
+         let declareVar;
+        console.log(declareVar); // declaration without initialization
+        declareVar = "Now I am initialized"; // Initialization
+        console.log(declareVar);
+        const price1 = 5;
+        const price2 = 10;
+        let total = price1 + price2;
+        console.log("Total Price: " + total);
+        autovar = "This is an auto variable";
+        autoVar = "Auto variable can be changed";
+        console.log(autovar);
+        let num1 = 10;
+        let num2 = 20;
+        let num3 = 30;        
+        console.log(num1 + num2 + num3);
+        let text1 = "Happy birthday, ";
+        let text2 = "Nick Gur";
+        let text3 = "!";
+        console.log(text1 + text2 + text3);
+        let a = "a", b = "b", c = "c";
+        console.log(a + b + c);
+        let addend1 = 50, addend2 = 70, addend3 = 90;
+        let sum = addend1 + addend2 + addend3;
+        console.log("Sum: " + sum);
+        let minuend = 20, subtrahend = 10;
+        let difference = minuend - subtrahend;
+        console.log("Difference: " + difference);
+        let multiplicand = 5, multiplier = 4;
+        let product = multiplicand * multiplier;
+        console.log("Product: " + product);
+        let dividend = 100, divisor = 5;
+        let quotient = dividend / divisor;
+        console.log("Quotient: " + quotient);
+
+        let globalVar = "I am a global variable"; // Global variable
+        {
+            let localVar1 = "I am a local variable"; // Local variable
+               console.log(globalVar);
+                console.log(localVar1); 
+        }
+        {
+            let localVar1 = "I am a local variable"; // Local variable
+               console.log(globalVar);
+                console.log(localVar1);  
+        }
+        
+        hoisteVar = "I am hoisted";
+        console.log(hoisteVar);
+        let hoistedVar;
+
+       let numBigInt = 9007199254740991;
+       console.log(numBigInt);
+
+       let bigIntNumber = 9007199254740991;
+       console.log(bigIntNumber);
+
+       let bigIntNumber2 =  6767676767676767676767676767676767667;
+       console.log(bigIntNumber2);
+
+       
+    </script>
+</body>
+</html>
